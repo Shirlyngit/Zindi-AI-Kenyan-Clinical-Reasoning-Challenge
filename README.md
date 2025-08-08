@@ -9,6 +9,8 @@ This project was submitted for the **Kenya Clinical Reasoning Challenge 2025** h
 
 - This project is a unique and socially impactful task aiming to replicate how real frontline nurses in rural Kenya respond to complex, real-world clinical scenarios.
 
+  ![imageproof](Data/proof_of_participation.png)
+
 ---
 
 ## 📍 Context
