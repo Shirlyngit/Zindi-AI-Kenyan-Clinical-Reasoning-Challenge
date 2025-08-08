@@ -5,7 +5,7 @@ Help Clinicians with medical responses
 
 ## 🩺 Can AI Mirror Human Clinical Reasoning in Kenya?
 
-This project was submitted for the **Kenya Clinical Reasoning Challenge** hosted on [Zindi Africa](https://zindi.africa), in collaboration with [PATH](https://www.path.org/?utm_source=google&utm_medium=paid&utm_campaign=20980934625&utm_term=path&content=157984876469&gad_source=1&gad_campaignid=20980934625&gbraid=0AAAAAD3kOABYEYyzS6Yz0M_QNucrp5QDJ&gclid=CjwKCAjwkbzEBhAVEiwA4V-yqhVbEuJHNlb2QBgUjCR-3b4Kh2emdzKg_ctVW30dXxM19ebq8xKBthoCaGoQAvD_BwE) - A HeathTech NGO that focuses on automating healthcare infrastructure.
+This project was submitted for the **Kenya Clinical Reasoning Challenge 2025** hosted on [Zindi Africa](https://zindi.africa/competitions/kenya-clinical-reasoning-challenge), in collaboration with [PATH](https://www.path.org/?utm_source=google&utm_medium=paid&utm_campaign=20980934625&utm_term=path&content=157984876469&gad_source=1&gad_campaignid=20980934625&gbraid=0AAAAAD3kOABYEYyzS6Yz0M_QNucrp5QDJ&gclid=CjwKCAjwkbzEBhAVEiwA4V-yqhVbEuJHNlb2QBgUjCR-3b4Kh2emdzKg_ctVW30dXxM19ebq8xKBthoCaGoQAvD_BwE) - A HeathTech NGO that focuses on automating healthcare infrastructure.
 
 - This project is a unique and socially impactful task aiming to replicate how real frontline nurses in rural Kenya respond to complex, real-world clinical scenarios.
 
