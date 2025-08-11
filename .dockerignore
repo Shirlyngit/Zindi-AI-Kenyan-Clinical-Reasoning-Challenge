@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Env files
+.env
+*.env
+
+# Virtual environments
+.venv/
+venv/
+
+# Data & temp files
+*.log
+*.csv
+*.json
+*.txt
+data/
+tmp/
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Git
+.git
+.gitignore
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
