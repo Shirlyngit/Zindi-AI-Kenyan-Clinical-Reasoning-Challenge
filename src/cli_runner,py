@@ -1,0 +1,49 @@
+import os
+import argparse
+from src.summarizer import SummarizerService
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="CLI tool for generating medical summaries using Gemini API or a local fine-tuned model."
+    )
+
+    parser.add_argument(
+        "text",
+        nargs="?",
+        type=str,
+        help="The input text to summarize. If not provided, will read from stdin."
+    )
+
+    parser.add_argument(
+        "--mode",
+        choices=["local", "gemini"],
+        default=os.getenv("MODE", "local"),
+        help="Choose between local fine-tuned model or Gemini API (default: local)"
+    )
+
+    parser.add_argument(
+        "--model",
+        default=os.getenv("LOCAL_MODEL_PATH", "distilgpt2"),
+        help="Local model path or Hugging Face model name (default: distilgpt2)"
+    )
+
+    args = parser.parse_args()
+
+    # Initialize the summarizer
+    summarizer = SummarizerService(mode=args.mode, model_name=args.model)
+
+    # Get input text
+    if args.text:
+        input_text = args.text
+    else:
+        print("Enter text to summarize (Ctrl+D to finish):")
+        input_text = "".join(iter(input, ""))
+
+    # Generate summary
+    summary = summarizer.summarize(input_text)
+    print("\n=== Summary ===\n")
+    print(summary)
+
+
+if __name__ == "__main__":
+    main()
